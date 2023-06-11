@@ -33,16 +33,16 @@ Hyperopt is used to search for the optimal configuration of hyperparameters of t
 
 ## RESULTS
 From the execution of the model we obtain the following results for the value of the parameters:
-Reported Uncorrectable Error    =  5.8100
-Seek Error Rate  			    =  3.9381
-Power on Hours 				    =  3.1107
-SpinUpTime  				    =  2.5545
-Reallocated Sector Count  	    =  0.9958
-Current Pending Sectors counts  =  0.9352
-Temperature Celsius  		    =  0.4340
-Hardware ECC Recovered 		    =  0.3326
-Raw Read Error Rate 		    =  0.0558
-High Fly Writes  			    =  -0.0615
-Current Pending Sector	        =  -1.8298 
-
+Seek Error Rate  				=  5.0404 <br>
+Power on Hours  				=  4.1121<br>
+SpinUpTime  					=  2.7639<br>
+Reallocated Sector Count  		=  1.0562<br>
+Current Pending Sectors counts  =  1.0064<br>
+Reported Uncorrectable Error  	=  0.8956<br>
+Temperature Celsius  			=  0.3809<br>
+Hardware ECC Recovered  		=  0.1807<br>
+Raw Read Error Rate  			=  0.0469<br>
+High Fly Writes  				=  -0.3776<br>
+Current Pending Sector  		=  -1.2449<br>
+<br>
 The most important parameter highlighted from this analysis is the "uncorrectable errors", which indicates a number of errors that could not be recovered using hardware ECC . Similarly, high seek error rate is also a predictor of failure, it indicates a serious problem with the drive. This could be due to severely bad sectors, mechanical issues, or overheating and servo damage. The total time the disk is powered, and in use have also impact of the lifetime of the disk. It is interesting to see that temperature has a lower impact in the predictions of the failures in disks
