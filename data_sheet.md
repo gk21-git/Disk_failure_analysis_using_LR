@@ -21,8 +21,8 @@ This is a SMART Dataset of HDDs from the Baidu Inc. Datacenter.
 
 Every attribute value is scaled to the same interval [-1, 1] and their exact values withhold for privacy and security. The serial number of the disk is replaced by a number ranging from 1 to 5750.
 
-Each line in the dataset contains 14 columns which are separated by commas. The meaning of each column is listed as follows.
-Column 1 : index of the disk representing its serial number, ranging from 1 to 5750<br>
+Each line in the dataset contains 14 columns which are separated by commas. The meaning of each column is listed as follows:<br>
+Column 1 : index of the disk representing its serial number, ranging from 1 to 5749<br>
 Column 2 : class label of the disk, it is -1 for disks that failed and +1 for disks that are good<br>
 Column 3 : VALUE of SMART ID #1, Raw Read Error Rate<br>
 Column 4 : VALUE of SMART ID #3, Spin Up Time<br>
