@@ -6,7 +6,7 @@ The model analyzes the main factors that may predict the failure of a hard disk.
 ##Input
 
 Each line in the dataset contains 14 columns which are separated by commas. The meaning of each column is listed as follows.
-Column 1 : index of the disk representing its serial number, ranging from 1 to 5750.
+Column 1 : index of the disk representing its serial number, ranging from 1 to 5750 <br>
 Column 2 : class label of the disk, it is -1 for disks that failed and +1 for disks that are good.
 Column 3 : VALUE of SMART ID #1, Raw Read Error Rate
 Column 4 : VALUE of SMART ID #3, Spin Up Time
