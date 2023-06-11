@@ -4,7 +4,7 @@
 Prediction of failures in High Performance Computing storage systems components  can help to  increase availability, decrease maintenance cost and help allocate spare parts and manpower more efficiently. The idea behind the project is to use data collected on hard disks health from logs and monitoring in the storage system, using the SMART technology,  to predict the probability of a disk failure. 
 This is called a classification problem, in which the final result is a binary finding - the disk is good or defective. 
 The objective of the analysis is also shed light on the principal variables that may be useful to predict failure of hard disks. 
-
+ 
 ## DATA
 The open HDD Dataset from Baidu Inc datacenter was used. (https://www.kaggle.com/datasets/drtycoon/hdds-dataset-baidu-inc).
 The data contains samples from SMART (Self-Monitoring, Analysis and Reporting Technology) measurements of Seagate ST31000524NS disks. This data is tagged as CC0 1.0 Universal (CC0 1.0) - Public Domain, and according to Kaggle's site it is updated annually.
