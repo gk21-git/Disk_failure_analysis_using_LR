@@ -32,7 +32,7 @@ Hyperopt is used to search for the optimal configuration of hyperparameters of t
  
 
 ## RESULTS
-From the execution of the model we obtain the following results for the value of the parameters:
+From the execution of the model we obtain the following results for the value of the parameters:<br>
 Seek Error Rate  				=  5.0404 <br>
 Power on Hours  				=  4.1121<br>
 SpinUpTime  					=  2.7639<br>
